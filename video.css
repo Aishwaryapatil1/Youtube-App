@@ -1,0 +1,278 @@
+body{
+    margin:0% 1%;
+} 
+#SearchResults{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px;
+    margin-top:8%;
+    margin-left: 14%;
+    height:400px;
+}
+#SearchResults>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:1px solid grey;
+    padding:10px;
+}
+#searchTerm{
+    border:2px solid #dbdbdb;
+    width:135%;
+    padding: 0 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+    /* margin-left: 9%; */
+    /* margin-top:5px; */
+    /* margin-bottom:5px; */
+    height:100%;
+}
+#logo{
+    width:100px;
+    height:20px;
+    margin-top: 10px;
+}
+#search-btn{
+    width: 20%;
+    height: 111%;
+    background: #f0f0f0;
+    border: 2px solid #dbdbdb;
+    padding:5px 0;
+    border-left: none;
+}
+#search-btn>i{
+    height:100%;
+}
+-------------------------------------------------
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline:none;
+}
+body{
+    position:relative;
+    background: #f0f0f0;
+    font-family:'roboto',sans-serif;
+}
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:60px;
+    background:#fff;
+    display:flex;
+    align-items: center;
+    padding:0 2.5vw;
+}
+.toggle-btn{
+    width:21px;
+    height:13px;
+    position:relative;
+    cursor:pointer;
+}
+.toggle-btn span{
+    position:absolute;
+    width:100%;
+    height:2px;
+    top:50%;
+    transform:translateY(-50%);
+    background: #979797;
+}
+.toggle-btn span:nth-child(1)
+{
+    top:0;
+}
+.toggle-btn span:nth-child(3)
+{
+    top:100%;
+}
+#logo{
+    height:60px;
+    margin:-2px 30px 0;
+}
+#searchbox{
+    position: relative;
+    max-width:500px;
+    width:50%;
+    height:35px;
+    display:flex;
+    margin: 16%;
+}
+ #useroptions{
+    height: 17px;
+    display: flex;
+    /* margin:10%; */
+    /* gap: 10px; */
+    /* margin-left: auto; */
+    align-items: center;
+}
+
+.icon{
+    height:50%;
+    margin-right: 20px;
+    margin-top: 18px;
+    margin-left: 15px;
+    cursor: pointer;
+} 
+
+/* -----------  */
+body{
+    margin:0% 1%;
+    background-color: #f9f9f9;
+    font-family: Roboto,Arial,sans-serif;
+}
+ #results_div{
+    width:51%;
+    height:460px;
+    margin-top: 75px;
+    margin-left:2%;
+    position:static;
+    
+}
+#content1{
+    width:100%;
+    border:1px solid transparent;
+    margin-left: 7%;
+    margin-top:100px ;
+}
+#nav{
+    position:fixed;
+    margin-top: 0px;
+    top:0px;
+    width:100%;
+    height:55px;
+    background-color: white;
+    border-bottom:1px solid rgb(219, 215, 215);
+}
+#suggestion{
+    width:100%;
+    height:10%;
+    display: flex;
+}
+#suggest{
+    height:25px;
+    border-radius:15px;
+    border:1px solid rgb(219, 215, 215);
+    margin-right: 15px;
+    padding-top:8px;
+    padding-bottom:22px;
+    padding-left:15px;
+    padding-right:20px; 
+}
+#ytlogo{
+    margin: auto;
+    margin-left:20px;
+    margin-top: 5px;
+}
+#logospace{
+    width:100px;
+    height:20px;
+    margin-top: 10px;
+}
+#upbox{
+    width:100%;
+    height:100%;
+    border-bottom:1px solid rgb(219, 215, 215);
+    display: flex;
+}
+.search1{
+    border:1px solid rgb(219, 215, 215);
+    width:45%;
+    margin-left: 9%;
+    margin-top:5px;
+    margin-bottom:5px;
+    height:70%;
+}
+#search2{
+    border:1px solid rgb(219, 215, 215);
+    height:78%;
+    margin-top:5px;
+    margin-bottom:5px;
+    width:5%;
+}
+#mic{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#create{
+    margin-top: 15px;
+    margin-left: 10%;
+}
+#icon{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+#bell{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+#profile{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+#leftbox{
+    display: block;
+    margin-top: 75px;
+    width:5%;
+    height:500px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #f9f9f9;
+}
+
+#container{
+    width:100%;
+    display: flex;
+}
+#content{
+    width:100%;
+    height:100%;
+}
+#lefticon{
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.home{
+    margin-top: 10px;
+}
+button:hover{
+    background-color: black;
+    color:white;
+}
+#rightgap{
+    width:5%;
+    height:600px;
+    margin-top: 75px;
+}
+#smallvidbox{
+    margin-left: 2%;
+    width:30%;
+    /* overflow:hidden; */
+    margin-top: 75px;
+}
+#text{
+    height:30px;
+    width:100%;
+}
+#favourite{
+    margin-top: 20px;
+    height:450px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    scrollbar-color: unset;
+    scrollbar-base-color: unset;
+    margin-left:25%;
+
+}
+#useryt{
+        width:70px;
+        height:20px;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
